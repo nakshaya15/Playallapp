@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import BookingModal from './BookingModal'; // Make sure this is imported
+//import BookingModal from './BookingModal'; // Make sure this is imported
 
 const MembershipPage: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -35,7 +35,7 @@ const MembershipPage: React.FC = () => {
       </a>
 
       {/* The modal component, which is conditionally rendered */}
-      <BookingModal isOpen={isModalOpen} onClose={closeModal} />
+
     </div>
   );
 };
